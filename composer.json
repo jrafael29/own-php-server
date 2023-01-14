@@ -1,0 +1,15 @@
+{
+    "name": "rafae/own",
+    "autoload": {
+        "psr-4": {
+            "Rafae\\Own\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jrafael29",
+            "email": "jrafael5758@gmail.com"
+        }
+    ],
+    "require": {}
+}
