@@ -1,0 +1,19 @@
+{
+  "name": "own",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "php": "php -S localhost:8000 index.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrafael29/own-php-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrafael29/own-php-server/issues"
+  },
+  "homepage": "https://github.com/jrafael29/own-php-server#readme"
+}

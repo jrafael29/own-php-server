@@ -1,13 +1,19 @@
+<?php 
+session_start();
+	require_once($_SERVER['DOCUMENT_ROOT'] . '\\autoload.php');
+
+
+?>
 <div>
 	<div class="alert alert-info"><h3>Cadastre um novo produto</h3></div>
 
 	<?php if(isset($_SESSION['info']) || isset($_SESSION['info']) ): ?>
-		<div class="alert alert-warning"> <?= $_SESSION['info'] ?> </div>
-		
+		<div class="text-info"> <?= $_SESSION['info'] ?> </div>
 	<?php endif; ?>
+
 	<?php $_SESSION['info'] = '' ?>
 	
-	<form action="/salvar-cadastro" method="POST">
+	<form action="/salvar-produto" method="POST">
 		<div class="form-group mb-3">
 			<label class="form-label" for="">Nome</label>
 			<input type="text" name="name" class="form-control" id="name" />

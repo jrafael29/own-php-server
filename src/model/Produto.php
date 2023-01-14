@@ -1,26 +1,29 @@
 <?php
+require_once($_SERVER['DOCUMENT_ROOT'] . '\\autoload.php');
 
-class Produto 
+class Produto extends ProdutoDatabase
 {
 
     function __construct(
+        private $id,
         private $name,
         private $description,
         private $price
     ){}
 
-    public function getName()
-    {
+    function getId(){
+        return $this->id;
+    }
+    
+    function getName(){
         return $this->name;
     }
 
-    public function getDescription()
-    {
+    function getDescription(){
         return $this->description;
     }
-    
-    public function getPrice()
-    {
+
+    function getPrice(){
         return $this->price;
     }
 
