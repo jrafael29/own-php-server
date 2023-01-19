@@ -3,7 +3,7 @@
 $PORT = 5433;
 $HOST = "localhost";
 $USER = "postgres";
-$PASS = "92406695";
+$PASS = "root";
 $DB = "own";
 
 $options = [
