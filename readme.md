@@ -7,7 +7,7 @@
 <img src="./src/public/img/own-home.png" >
 <hr>
 <h2>Cadastro</h2>
-<img src="./src/public/img/own-cadastro-1.png" >
+<img src="./src/public/img/own-cadastro.png" >
 <strong>flash message</strong>
 <img src="./src/public/img/own-cadastro-2.png" >
 <hr>
