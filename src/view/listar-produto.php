@@ -24,7 +24,7 @@ $produtos = new ProdutoDatabase($pdo);
                     <td>
                         <form action="/deletar-produto" method="post">
                             <input type="hidden" name="id" value="<?= $produto->getId() ?>">
-                            <button class="btn btn-sm btn-danger">X</button>
+                            <button class="btn btn-sm btn-danger" onclick="return confirm('Deseja mesmo excluir o produto?')" >X</button>
                         </form>
                     </td>
                 </tr>
